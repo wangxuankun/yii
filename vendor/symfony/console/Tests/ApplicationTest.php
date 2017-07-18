@@ -58,7 +58,11 @@ class ApplicationTest extends TestCase
     }
 
     /**
+<<<<<<< HEAD
      * Replaces the dynamic placeholders of the command helper text with a static version.
+=======
+     * Replaces the dynamic placeholders of the command help text with a static version.
+>>>>>>> origin/master
      * The placeholder %command.full_name% includes the script path that is not predictable
      * and can not be tested against.
      */
@@ -74,7 +78,11 @@ class ApplicationTest extends TestCase
         $application = new Application('foo', 'bar');
         $this->assertEquals('foo', $application->getName(), '__construct() takes the application name as its first argument');
         $this->assertEquals('bar', $application->getVersion(), '__construct() takes the application version as its second argument');
+<<<<<<< HEAD
         $this->assertEquals(array('helper', 'list'), array_keys($application->all()), '__construct() registered the helper and list commands by default');
+=======
+        $this->assertEquals(array('help', 'list'), array_keys($application->all()), '__construct() registered the help and list commands by default');
+>>>>>>> origin/master
     }
 
     public function testSetGetName()
@@ -100,14 +108,22 @@ class ApplicationTest extends TestCase
     public function testHelp()
     {
         $application = new Application();
+<<<<<<< HEAD
         $this->assertStringEqualsFile(self::$fixturesPath.'/application_gethelp.txt', $this->normalizeLineBreaks($application->getHelp()), '->getHelp() returns a helper message');
+=======
+        $this->assertStringEqualsFile(self::$fixturesPath.'/application_gethelp.txt', $this->normalizeLineBreaks($application->getHelp()), '->getHelp() returns a help message');
+>>>>>>> origin/master
     }
 
     public function testAll()
     {
         $application = new Application();
         $commands = $application->all();
+<<<<<<< HEAD
         $this->assertInstanceOf('Symfony\\Component\\Console\\Command\\HelpCommand', $commands['helper'], '->all() returns the registered commands');
+=======
+        $this->assertInstanceOf('Symfony\\Component\\Console\\Command\\HelpCommand', $commands['help'], '->all() returns the registered commands');
+>>>>>>> origin/master
 
         $application->add(new \FooCommand());
         $commands = $application->all('foo');
@@ -157,13 +173,21 @@ class ApplicationTest extends TestCase
 
         $application = new Application();
         $application->add($foo = new \FooCommand());
+<<<<<<< HEAD
         // simulate --helper
+=======
+        // simulate --help
+>>>>>>> origin/master
         $r = new \ReflectionObject($application);
         $p = $r->getProperty('wantHelps');
         $p->setAccessible(true);
         $p->setValue($application, true);
         $command = $application->get('foo:bar');
+<<<<<<< HEAD
         $this->assertInstanceOf('Symfony\Component\Console\Command\HelpCommand', $command, '->get() returns the helper command if --helper is provided as the input');
+=======
+        $this->assertInstanceOf('Symfony\Component\Console\Command\HelpCommand', $command, '->get() returns the help command if --help is provided as the input');
+>>>>>>> origin/master
     }
 
     public function testSilentHelp()
@@ -676,6 +700,7 @@ class ApplicationTest extends TestCase
         $tester->run(array(), array('decorated' => false));
         $this->assertStringEqualsFile(self::$fixturesPath.'/application_run1.txt', $tester->getDisplay(true), '->run() runs the list command if no argument is passed');
 
+<<<<<<< HEAD
         $tester->run(array('--helper' => true), array('decorated' => false));
         $this->assertStringEqualsFile(self::$fixturesPath.'/application_run2.txt', $tester->getDisplay(true), '->run() runs the helper command if --helper is passed');
 
@@ -687,6 +712,19 @@ class ApplicationTest extends TestCase
 
         $tester->run(array('command' => 'list', '-h' => true), array('decorated' => false));
         $this->assertStringEqualsFile(self::$fixturesPath.'/application_run3.txt', $tester->getDisplay(true), '->run() displays the helper if -h is passed');
+=======
+        $tester->run(array('--help' => true), array('decorated' => false));
+        $this->assertStringEqualsFile(self::$fixturesPath.'/application_run2.txt', $tester->getDisplay(true), '->run() runs the help command if --help is passed');
+
+        $tester->run(array('-h' => true), array('decorated' => false));
+        $this->assertStringEqualsFile(self::$fixturesPath.'/application_run2.txt', $tester->getDisplay(true), '->run() runs the help command if -h is passed');
+
+        $tester->run(array('command' => 'list', '--help' => true), array('decorated' => false));
+        $this->assertStringEqualsFile(self::$fixturesPath.'/application_run3.txt', $tester->getDisplay(true), '->run() displays the help if --help is passed');
+
+        $tester->run(array('command' => 'list', '-h' => true), array('decorated' => false));
+        $this->assertStringEqualsFile(self::$fixturesPath.'/application_run3.txt', $tester->getDisplay(true), '->run() displays the help if -h is passed');
+>>>>>>> origin/master
 
         $tester->run(array('--ansi' => true));
         $this->assertTrue($tester->getOutput()->isDecorated(), '->run() forces color output if --ansi is passed');
@@ -913,7 +951,11 @@ class ApplicationTest extends TestCase
 
         $this->assertTrue($inputDefinition->hasArgument('command'));
 
+<<<<<<< HEAD
         $this->assertTrue($inputDefinition->hasOption('helper'));
+=======
+        $this->assertTrue($inputDefinition->hasOption('help'));
+>>>>>>> origin/master
         $this->assertTrue($inputDefinition->hasOption('quiet'));
         $this->assertTrue($inputDefinition->hasOption('verbose'));
         $this->assertTrue($inputDefinition->hasOption('version'));
@@ -933,7 +975,11 @@ class ApplicationTest extends TestCase
         // check whether the default arguments and options are not returned any more
         $this->assertFalse($inputDefinition->hasArgument('command'));
 
+<<<<<<< HEAD
         $this->assertFalse($inputDefinition->hasOption('helper'));
+=======
+        $this->assertFalse($inputDefinition->hasOption('help'));
+>>>>>>> origin/master
         $this->assertFalse($inputDefinition->hasOption('quiet'));
         $this->assertFalse($inputDefinition->hasOption('verbose'));
         $this->assertFalse($inputDefinition->hasOption('version'));
@@ -957,7 +1003,11 @@ class ApplicationTest extends TestCase
         // check whether the default arguments and options are not returned any more
         $this->assertFalse($inputDefinition->hasArgument('command'));
 
+<<<<<<< HEAD
         $this->assertFalse($inputDefinition->hasOption('helper'));
+=======
+        $this->assertFalse($inputDefinition->hasOption('help'));
+>>>>>>> origin/master
         $this->assertFalse($inputDefinition->hasOption('quiet'));
         $this->assertFalse($inputDefinition->hasOption('verbose'));
         $this->assertFalse($inputDefinition->hasOption('version'));
@@ -1341,7 +1391,11 @@ class ApplicationTest extends TestCase
         $tester->run(array());
         $this->assertContains('called', $tester->getDisplay());
 
+<<<<<<< HEAD
         $tester->run(array('--helper' => true));
+=======
+        $tester->run(array('--help' => true));
+>>>>>>> origin/master
         $this->assertContains('The foo:bar command', $tester->getDisplay());
     }
 
@@ -1354,7 +1408,11 @@ class ApplicationTest extends TestCase
         $application->setAutoExit(false);
 
         $tester = new ApplicationTester($application);
+<<<<<<< HEAD
         $tester->run(array('command' => 'helper'));
+=======
+        $tester->run(array('command' => 'help'));
+>>>>>>> origin/master
 
         $this->assertFalse($tester->getInput()->hasParameterOption(array('--no-interaction', '-n')));
 

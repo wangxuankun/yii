@@ -148,10 +148,17 @@ class CommandTest extends TestCase
     public function testGetSetHelp()
     {
         $command = new \TestCommand();
+<<<<<<< HEAD
         $this->assertEquals('helper', $command->getHelp(), '->getHelp() returns the helper');
         $ret = $command->setHelp('help1');
         $this->assertEquals($command, $ret, '->setHelp() implements a fluent interface');
         $this->assertEquals('help1', $command->getHelp(), '->setHelp() sets the helper');
+=======
+        $this->assertEquals('help', $command->getHelp(), '->getHelp() returns the help');
+        $ret = $command->setHelp('help1');
+        $this->assertEquals($command, $ret, '->setHelp() implements a fluent interface');
+        $this->assertEquals('help1', $command->getHelp(), '->setHelp() sets the help');
+>>>>>>> origin/master
         $command->setHelp('');
         $this->assertEquals('', $command->getHelp(), '->getHelp() does not fall back to the description');
     }

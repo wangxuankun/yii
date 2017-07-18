@@ -11,7 +11,11 @@
  * documentation.
  *
  * @todo Allow injectors to request a re-run on their output. This
+<<<<<<< HEAD
  *       would helper if an operation is recursive.
+=======
+ *       would help if an operation is recursive.
+>>>>>>> origin/master
  */
 abstract class HTMLPurifier_Injector
 {

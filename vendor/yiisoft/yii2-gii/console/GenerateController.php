@@ -105,7 +105,11 @@ class GenerateController extends Controller
 
     public function actionIndex()
     {
+<<<<<<< HEAD
         $this->run('/helper', ['gii']);
+=======
+        $this->run('/help', ['gii']);
+>>>>>>> origin/master
     }
 
     /**

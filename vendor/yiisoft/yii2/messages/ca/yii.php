@@ -29,8 +29,13 @@ return [
     'Missing required arguments: {params}' => 'Falten arguments requerits: {params}',
     'Missing required parameters: {params}' => 'Falten paràmetres requerits: {params}',
     'No' => 'No',
+<<<<<<< HEAD
     'No helper for unknown command "{command}".' => 'No hi ha ajuda per l\'ordre desconeguda "{command}"',
     'No helper for unknown sub-command "{command}".' => 'No hi ha ajuda per la sub-ordre desconeguda "{command}"',
+=======
+    'No help for unknown command "{command}".' => 'No hi ha ajuda per l\'ordre desconeguda "{command}"',
+    'No help for unknown sub-command "{command}".' => 'No hi ha ajuda per la sub-ordre desconeguda "{command}"',
+>>>>>>> origin/master
     'No results found.' => 'No s\'han trobat resultats.',
     'Only files with these MIME types are allowed: {mimeTypes}.' => 'Només s\'accepten arxius amb els següents tipus MIME: {mimeTypes}.',
     'Only files with these extensions are allowed: {extensions}.' => 'Només s\'accepten arxius amb les seguents extensions: {extensions}',

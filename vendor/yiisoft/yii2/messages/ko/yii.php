@@ -28,8 +28,13 @@ return [
     'Missing required arguments: {params}' => '필요한 인수가 없습니다: {params}',
     'Missing required parameters: {params}' => '필요한 매개변수가 없습니다: {params}',
     'No' => '아니오',
+<<<<<<< HEAD
     'No helper for unknown command "{command}".' => '알 수 없는 명령 "{command}"에 대한 도움말이 없습니다.',
     'No helper for unknown sub-command "{command}".' => '알 수 없는 하위명령  "{command}"에 대한 도움말이 없습니다.',
+=======
+    'No help for unknown command "{command}".' => '알 수 없는 명령 "{command}"에 대한 도움말이 없습니다.',
+    'No help for unknown sub-command "{command}".' => '알 수 없는 하위명령  "{command}"에 대한 도움말이 없습니다.',
+>>>>>>> origin/master
     'No results found.' => '결과가 없습니다.',
     'Only files with these extensions are allowed: {extensions}.' => '다음의 확장명을 가진 파일만 허용됩니다: {extensions}',
     'Page not found.' => '페이지를 찾을 수 없습니다.',

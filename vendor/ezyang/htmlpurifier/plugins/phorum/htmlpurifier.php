@@ -4,12 +4,20 @@
  * HTML Purifier Phorum Mod. Filter your HTML the Standards-Compliant Way!
  *
  * This Phorum mod enables users to post raw HTML into Phorum.  But never
+<<<<<<< HEAD
  * fear: with the helper of HTML Purifier, this HTML will be beat into
+=======
+ * fear: with the help of HTML Purifier, this HTML will be beat into
+>>>>>>> origin/master
  * de-XSSed and standards-compliant form, safe for general consumption.
  * It is not recommended, but possible to run this mod in parallel
  * with other formatters (in short, please DISABLE the BBcode mod).
  *
+<<<<<<< HEAD
  * For helper migrating from your previous markup language to pure HTML
+=======
+ * For help migrating from your previous markup language to pure HTML
+>>>>>>> origin/master
  * please check the migrate.bbcode.php file.
  *
  * If you'd like to use this with a WYSIWYG editor, make sure that

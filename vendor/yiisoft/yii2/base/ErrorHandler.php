@@ -33,7 +33,11 @@ abstract class ErrorHandler extends Component
     /**
      * @var int the size of the reserved memory. A portion of memory is pre-allocated so that
      * when an out-of-memory issue occurs, the error handler is able to handle the error with
+<<<<<<< HEAD
      * the helper of this reserved memory. If you set this value to be 0, no memory will be reserved.
+=======
+     * the help of this reserved memory. If you set this value to be 0, no memory will be reserved.
+>>>>>>> origin/master
      * Defaults to 256KB.
      */
     public $memoryReserveSize = 262144;

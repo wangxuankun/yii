@@ -2577,7 +2577,11 @@ EOT;
     http://promo.net/pg
 
     These Web sites include award-winning information about Project
+<<<<<<< HEAD
     Gutenberg, including how to donate, how to helper produce our new
+=======
+    Gutenberg, including how to donate, how to help produce our new
+>>>>>>> origin/master
     eBooks, and how to subscribe to our email newsletter (free!).
 
     Those of you who want to download any eBook before announcement

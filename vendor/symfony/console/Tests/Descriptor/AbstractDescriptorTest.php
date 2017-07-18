@@ -48,7 +48,11 @@ abstract class AbstractDescriptorTest extends TestCase
     /** @dataProvider getDescribeApplicationTestData */
     public function testDescribeApplication(Application $application, $expectedDescription)
     {
+<<<<<<< HEAD
         // Replaces the dynamic placeholders of the command helper text with a static version.
+=======
+        // Replaces the dynamic placeholders of the command help text with a static version.
+>>>>>>> origin/master
         // The placeholder %command.full_name% includes the script path that is not predictable
         // and can not be tested against.
         foreach ($application->all() as $command) {

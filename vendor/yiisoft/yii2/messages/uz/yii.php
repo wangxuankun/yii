@@ -51,8 +51,13 @@ return [
     'Missing required arguments: {params}' => 'Quyidagi zarur argumentlar mavjud emas: {params}',
     'Missing required parameters: {params}' => 'Quyidagi zarur parametrlar mavjud emas: {params}',
     'No' => 'Yo`q',
+<<<<<<< HEAD
     'No helper for unknown command "{command}".' => '"{command}" noaniq komanda uchun ma`lumotnoma mavjud emas.',
     'No helper for unknown sub-command "{command}".' => '"{command}" noaniq qism komanda uchun ma`lumotnoma mavjud emas.',
+=======
+    'No help for unknown command "{command}".' => '"{command}" noaniq komanda uchun ma`lumotnoma mavjud emas.',
+    'No help for unknown sub-command "{command}".' => '"{command}" noaniq qism komanda uchun ma`lumotnoma mavjud emas.',
+>>>>>>> origin/master
     'No results found.' => 'Hech nima topilmadi.',
     'Only files with these MIME types are allowed: {mimeTypes}.' => 'Faqat quyidagi MIME-turidagi fayllarni yuklashga ruhsat berilgan: {mimeTypes}.',
     'Only files with these extensions are allowed: {extensions}.' => 'Faqat quyidagi kengaytmali fayllarni yuklashga ruhsat berilgan: {extensions}.',

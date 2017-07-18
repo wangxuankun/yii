@@ -70,7 +70,11 @@ class Command
     /**
      * Ignores validation errors.
      *
+<<<<<<< HEAD
      * This is mainly useful for the helper command.
+=======
+     * This is mainly useful for the help command.
+>>>>>>> origin/master
      */
     public function ignoreValidationErrors()
     {
@@ -507,9 +511,15 @@ class Command
     }
 
     /**
+<<<<<<< HEAD
      * Sets the helper for the command.
      *
      * @param string $help The helper for the command
+=======
+     * Sets the help for the command.
+     *
+     * @param string $help The help for the command
+>>>>>>> origin/master
      *
      * @return $this
      */
@@ -521,9 +531,15 @@ class Command
     }
 
     /**
+<<<<<<< HEAD
      * Returns the helper for the command.
      *
      * @return string The helper for the command
+=======
+     * Returns the help for the command.
+     *
+     * @return string The help for the command
+>>>>>>> origin/master
      */
     public function getHelp()
     {
@@ -531,10 +547,17 @@ class Command
     }
 
     /**
+<<<<<<< HEAD
      * Returns the processed helper for the command replacing the %command.name% and
      * %command.full_name% patterns with the real values dynamically.
      *
      * @return string The processed helper for the command
+=======
+     * Returns the processed help for the command replacing the %command.name% and
+     * %command.full_name% patterns with the real values dynamically.
+     *
+     * @return string The processed help for the command
+>>>>>>> origin/master
      */
     public function getProcessedHelp()
     {

@@ -15237,7 +15237,11 @@ EOT;
     even without complying with the full terms of this agreement.  See
     paragraph 1.C below.  There are a lot of things you can do with Project
     Gutenberg-tm electronic works if you follow the terms of this agreement
+<<<<<<< HEAD
     and helper preserve free future access to Project Gutenberg-tm electronic
+=======
+    and help preserve free future access to Project Gutenberg-tm electronic
+>>>>>>> origin/master
     works.  See paragraph 1.E below.
 
     1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
@@ -15443,7 +15447,11 @@ EOT;
     Gutenberg Literary Archive Foundation was created to provide a secure
     and permanent future for Project Gutenberg-tm and future generations.
     To learn more about the Project Gutenberg Literary Archive Foundation
+<<<<<<< HEAD
     and how your efforts and donations can helper, see Sections 3 and 4
+=======
+    and how your efforts and donations can help, see Sections 3 and 4
+>>>>>>> origin/master
     and the Foundation web page at http://www.pglaf.org.
 
 
@@ -15525,7 +15533,11 @@ EOT;
 
     This Web site includes information about Project Gutenberg-tm,
     including how to make donations to the Project Gutenberg Literary
+<<<<<<< HEAD
     Archive Foundation, how to helper produce our new eBooks, and how to
+=======
+    Archive Foundation, how to help produce our new eBooks, and how to
+>>>>>>> origin/master
     subscribe to our email newsletter to hear about new eBooks.
     */
 }

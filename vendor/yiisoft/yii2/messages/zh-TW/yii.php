@@ -30,8 +30,13 @@ return [
     'Missing required arguments: {params}' => '參數不齊全：{params}',
     'Missing required parameters: {params}' => '參數不齊全：{params}',
     'No' => '否',
+<<<<<<< HEAD
     'No helper for unknown command "{command}".' => '子命令 "{command}" 發生未知的錯誤。',
     'No helper for unknown sub-command "{command}".' => '子命令 "{command}" 發生未知的錯誤。',
+=======
+    'No help for unknown command "{command}".' => '子命令 "{command}" 發生未知的錯誤。',
+    'No help for unknown sub-command "{command}".' => '子命令 "{command}" 發生未知的錯誤。',
+>>>>>>> origin/master
     'No results found.' => '沒有資料。',
     'Only files with these MIME types are allowed: {mimeTypes}.' => '只允許這些MIME類型的文件: {mimeTypes}。',
     'Only files with these extensions are allowed: {extensions}.' => '只可以使用以下擴充名的檔案：{extensions}。',

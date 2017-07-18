@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 use \yii\helpers\Html;
 use \yii\helpers\HtmlPurifier;
@@ -10,3 +11,12 @@ use \yii\helpers\HtmlPurifier;
 <h2><?=HTMLPurifier::process($data['str']); ?></h2>
 
 <?php echo $this->render('about');?>
+=======
+<?php
+/**
+ * User: wangxuankun
+ * Date: 2017/7/17
+ * Time: 21:35
+ * Desc:
+ */
+>>>>>>> origin/master

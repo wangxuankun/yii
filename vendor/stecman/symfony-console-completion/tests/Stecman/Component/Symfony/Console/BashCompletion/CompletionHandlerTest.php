@@ -21,7 +21,11 @@ class CompletionHandlerTest extends CompletionHandlerTestCase
     {
         $handler = $this->createHandler('app ');
         $this->assertEquals(
+<<<<<<< HEAD
             array('helper', 'list', 'completion-aware', 'wave', 'walk:north'),
+=======
+            array('help', 'list', 'completion-aware', 'wave', 'walk:north'),
+>>>>>>> origin/master
             $this->getTerms($handler->runCompletion())
         );
     }
@@ -148,9 +152,15 @@ class CompletionHandlerTest extends CompletionHandlerTestCase
 
     public function testHelpCommandCompletion()
     {
+<<<<<<< HEAD
         $handler = $this->createHandler('app helper ');
         $this->assertEquals(
             array('helper', 'list', 'completion-aware', 'wave', 'walk:north'),
+=======
+        $handler = $this->createHandler('app help ');
+        $this->assertEquals(
+            array('help', 'list', 'completion-aware', 'wave', 'walk:north'),
+>>>>>>> origin/master
             $this->getTerms($handler->runCompletion())
         );
     }

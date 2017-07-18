@@ -29,8 +29,13 @@ return [
   'Missing required arguments: {params}' => 'Puuduvad nõutud argumendid: {params}',
   'Missing required parameters: {params}' => 'Puuduvad nõutud parameetrid: {params}',
   'No' => 'Ei',
+<<<<<<< HEAD
   'No helper for unknown command "{command}".' => 'Tundmatu käsu "{command}" jaoks puudub abi.',
   'No helper for unknown sub-command "{command}".' => 'Tundmatu alamkäsu "{command}" jaoks puudub abi.',
+=======
+  'No help for unknown command "{command}".' => 'Tundmatu käsu "{command}" jaoks puudub abi.',
+  'No help for unknown sub-command "{command}".' => 'Tundmatu alamkäsu "{command}" jaoks puudub abi.',
+>>>>>>> origin/master
   'No results found.' => 'Ei leitud ühtegi tulemust.',
   'Only files with these MIME types are allowed: {mimeTypes}.' => 'Lubatud on ainult nende MIME tüüpidega failid: {mimeTypes}.',
   'Only files with these extensions are allowed: {extensions}.' => 'Lubatud on ainult nende faililaienditega failid: {extensions}.',

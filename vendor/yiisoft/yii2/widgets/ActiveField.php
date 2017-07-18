@@ -78,7 +78,11 @@ class ActiveField extends Component
      *
      * @see \yii\helpers\Html::renderTagAttributes() for details on how attributes are being rendered.
      */
+<<<<<<< HEAD
     public $errorOptions = ['class' => 'helper-block'];
+=======
+    public $errorOptions = ['class' => 'help-block'];
+>>>>>>> origin/master
     /**
      * @var array the default options for the label tags. The parameter passed to [[label()]] will be
      * merged with this property when rendering the label tag.
@@ -813,7 +817,11 @@ class ActiveField extends Component
             'validateOnType' => false,
             'validationDelay' => 500,
             'encodeError' => true,
+<<<<<<< HEAD
             'error' => '.helper-block',
+=======
+            'error' => '.help-block',
+>>>>>>> origin/master
             'updateAriaInvalid' => true,
         ]);
     }

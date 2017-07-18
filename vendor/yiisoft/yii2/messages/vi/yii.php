@@ -29,8 +29,13 @@ return [
     'Missing required arguments: {params}' => 'Thiếu đối số: {params}',
     'Missing required parameters: {params}' => 'Thiếu tham số: {params}',
     'No' => 'Không',
+<<<<<<< HEAD
     'No helper for unknown command "{command}".' => 'Không có trợ giúp cho lệnh không rõ "{command}"',
     'No helper for unknown sub-command "{command}".' => 'Không có trợ giúp cho tiểu lệnh không rõ "{command}"',
+=======
+    'No help for unknown command "{command}".' => 'Không có trợ giúp cho lệnh không rõ "{command}"',
+    'No help for unknown sub-command "{command}".' => 'Không có trợ giúp cho tiểu lệnh không rõ "{command}"',
+>>>>>>> origin/master
     'No results found.' => 'Không tìm thấy kết quả nào.',
     'Only files with these MIME types are allowed: {mimeTypes}.' => 'Chỉ các file với kiểu MIME sau đây được phép tải lên: {mimeTypes}',
     'Only files with these extensions are allowed: {extensions}.' => 'Chỉ các file với phần mở rộng sau đây được phép tải lên: {extensions}',

@@ -28,7 +28,11 @@ use yii\base\Component;
  *
  * When the application ends or [[flushInterval]] is reached, Logger will call [[flush()]]
  * to send logged messages to different log targets, such as [[FileTarget|file]], [[EmailTarget|email]],
+<<<<<<< HEAD
  * or [[DbTarget|database]], with the helper of the [[dispatcher]].
+=======
+ * or [[DbTarget|database]], with the help of the [[dispatcher]].
+>>>>>>> origin/master
  *
  * @property array $dbProfiling The first element indicates the number of SQL statements executed, and the
  * second element the total time spent in SQL execution. This property is read-only.

@@ -15,7 +15,11 @@ use Prophecy\Doubler\Generator\Node\ClassNode;
 
 /**
  * Class patch interface.
+<<<<<<< HEAD
  * Class patches extend doubles functionality or helper
+=======
+ * Class patches extend doubles functionality or help
+>>>>>>> origin/master
  * Prophecy to avoid some internal PHP bugs.
  *
  * @author Konstantin Kudryashov <ever.zet@gmail.com>

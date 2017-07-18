@@ -21,7 +21,11 @@ class DescriptorCommand1 extends Command
             ->setName('descriptor:command1')
             ->setAliases(array('alias1', 'alias2'))
             ->setDescription('command 1 description')
+<<<<<<< HEAD
             ->setHelp('command 1 helper')
+=======
+            ->setHelp('command 1 help')
+>>>>>>> origin/master
         ;
     }
 }

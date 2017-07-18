@@ -29,8 +29,13 @@ return [
   'Missing required arguments: {params}' => 'Påkrævede argumenter mangler: {params}',
   'Missing required parameters: {params}' => 'Påkrævede parametre mangler: {params}',
   'No' => 'Nej',
+<<<<<<< HEAD
   'No helper for unknown command "{command}".' => 'Ingen hjælp til ukendt kommando "{command}".',
   'No helper for unknown sub-command "{command}".' => 'Ingen hjælp til ukendt under-kommando "{command}".',
+=======
+  'No help for unknown command "{command}".' => 'Ingen hjælp til ukendt kommando "{command}".',
+  'No help for unknown sub-command "{command}".' => 'Ingen hjælp til ukendt under-kommando "{command}".',
+>>>>>>> origin/master
   'No results found.' => 'Ingen resultater fundet.',
   'Only files with these MIME types are allowed: {mimeTypes}.' => 'Kun filer med følgende MIME-typer er tilladte: {mimeTypes}.',
   'Only files with these extensions are allowed: {extensions}.' => 'Kun filer med følgende filtyper er tilladte: {extensions}.',

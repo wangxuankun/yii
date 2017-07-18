@@ -31,8 +31,13 @@ return [
     'Missing required arguments: {params}' => 'Argumen yang diperlukan tidak ada: {params}',
     'Missing required parameters: {params}' => 'Parameter yang diperlukan tidak ada: {params}',
     'No' => 'Tidak',
+<<<<<<< HEAD
     'No helper for unknown command "{command}".' => 'Tidak ada bantuan untuk perintah yang tidak diketahui "{command}".',
     'No helper for unknown sub-command "{command}".' => 'Tidak ada bantuan untuk sub perintah yang tidak diketahui "{command}".',
+=======
+    'No help for unknown command "{command}".' => 'Tidak ada bantuan untuk perintah yang tidak diketahui "{command}".',
+    'No help for unknown sub-command "{command}".' => 'Tidak ada bantuan untuk sub perintah yang tidak diketahui "{command}".',
+>>>>>>> origin/master
     'No results found.' => 'Tidak ada data yang ditemukan.',
     'Only files with these MIME types are allowed: {mimeTypes}.' => 'Hanya berkas dengan tipe MIME ini yang diperbolehkan: {mimeTypes}.',
     'Only files with these extensions are allowed: {extensions}.' => 'Hanya berkas dengan ekstensi ini yang diperbolehkan: {extensions}.',

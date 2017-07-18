@@ -29,8 +29,13 @@ return [
     'Missing required arguments: {params}' => 'Tələb olunan arqumentlər tapılmadı: {params}',
     'Missing required parameters: {params}' => 'Tələb olunan parametrlər tapılmadı: {params}',
     'No' => 'Xeyr',
+<<<<<<< HEAD
     'No helper for unknown command "{command}".' => 'Qeyri-müəyyən "{command}" əmri üçün kömək yoxdur.',
     'No helper for unknown sub-command "{command}".' => 'Qeyri-müəyyən "{command}" sub-əmri üçün kömək yoxdur.',
+=======
+    'No help for unknown command "{command}".' => 'Qeyri-müəyyən "{command}" əmri üçün kömək yoxdur.',
+    'No help for unknown sub-command "{command}".' => 'Qeyri-müəyyən "{command}" sub-əmri üçün kömək yoxdur.',
+>>>>>>> origin/master
     'No results found.' => 'Heç bir nəticə tapılmadı',
     'Only files with these MIME types are allowed: {mimeTypes}.' => 'Ancaq bu MIME tipli fayllara icazə verilib: {mimeTypes}.',
     'Only files with these extensions are allowed: {extensions}.' => 'Genişlənmələri ancaq bu tipdə olan fayllara icazə verilib: {extensions}.',

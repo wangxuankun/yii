@@ -29,7 +29,11 @@ use yii\validators\Validator;
  * }
  * ```
  *
+<<<<<<< HEAD
  * The above example shows how to validate `$name` and `$email` with the helper of DynamicModel.
+=======
+ * The above example shows how to validate `$name` and `$email` with the help of DynamicModel.
+>>>>>>> origin/master
  * The [[validateData()]] method creates an instance of DynamicModel, defines the attributes
  * using the given data (`name` and `email` in this example), and then calls [[Model::validate()]].
  *

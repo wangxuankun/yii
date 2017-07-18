@@ -29,8 +29,13 @@ return [
   'Missing required arguments: {params}' => 'Липсват задължителните аргументи: {params}',
   'Missing required parameters: {params}' => 'Липсват задължителните параметри: {params}',
   'No' => 'Не',
+<<<<<<< HEAD
   'No helper for unknown command "{command}".' => 'Няма помощна информация за команда "{command}".',
   'No helper for unknown sub-command "{command}".' => 'Няма помощна информация под-команда "{command}".',
+=======
+  'No help for unknown command "{command}".' => 'Няма помощна информация за команда "{command}".',
+  'No help for unknown sub-command "{command}".' => 'Няма помощна информация под-команда "{command}".',
+>>>>>>> origin/master
   'No results found.' => 'Няма намерени резултати.',
   'Only files with these MIME types are allowed: {mimeTypes}.' => 'Допускат се файлове са от типове: {mimeTypes}.',
   'Only files with these extensions are allowed: {extensions}.' => 'Допускат се файлове със следните разширения: {extensions}.',

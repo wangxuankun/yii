@@ -18,7 +18,11 @@ class Company extends \Faker\Provider\Company
             '24/7', '3. sukupolven', '4. sukupolven', '5. sukupolven', '6. sukupolven', 'alueellinen', 'analysoiva', 'assymmetrinen', 'asynkroninen', 'asiakaslähtöinen', 'dynaaminen', 'globaali', 'heuristinen', 'hybridi', 'inkrementaalinen', 'interaktiivinen', 'kahtiajakautuva', 'kaksisuuntainen', 'konkreettinen', 'korkean tason', 'logistinen', 'johdonmukainen', 'maksimaalinen', 'moniajettava', 'multimedia', 'optimaalinen', 'optimoiva', 'omistautunut', 'paikallinen', 'reaaliaikainen', 'seuraavan sukupolven', 'skaalautuva', 'systeeminen'
         ),
         array(
+<<<<<<< HEAD
             'algoritmi', 'yhteisö', 'analysaattori', 'sovellus', 'lähestymistapa', 'arkkitehtuuri', 'arkisto', 'ryhmä', 'sovitin', 'benchmark', 'kapasiteetti', 'tietokanta', 'piiri', 'emulaatio', 'konsepti', 'firmware', 'rakenne', 'funktio', 'rauta', 'helper-desk', 'hierarkia', 'hubi', 'implementaatio', 'intranet', 'malli', 'ohjelmisto', 'ratkaisu', 'strategia', 'menestys', 'projekti', 'tuote', 'tuki', 'www-sivusto', 'synergia', 'protokolla', 'koodaus', 'ennuste', 'joustavuus', 'extranet', 'salaus', 'kompleksisuus', 'ydin', 'asenne', 'liitto', 'internetratkaisu', 'asennus', 'monitorointi', 'infrastruktuuri'
+=======
+            'algoritmi', 'yhteisö', 'analysaattori', 'sovellus', 'lähestymistapa', 'arkkitehtuuri', 'arkisto', 'ryhmä', 'sovitin', 'benchmark', 'kapasiteetti', 'tietokanta', 'piiri', 'emulaatio', 'konsepti', 'firmware', 'rakenne', 'funktio', 'rauta', 'help-desk', 'hierarkia', 'hubi', 'implementaatio', 'intranet', 'malli', 'ohjelmisto', 'ratkaisu', 'strategia', 'menestys', 'projekti', 'tuote', 'tuki', 'www-sivusto', 'synergia', 'protokolla', 'koodaus', 'ennuste', 'joustavuus', 'extranet', 'salaus', 'kompleksisuus', 'ydin', 'asenne', 'liitto', 'internetratkaisu', 'asennus', 'monitorointi', 'infrastruktuuri'
+>>>>>>> origin/master
         )
     );
 

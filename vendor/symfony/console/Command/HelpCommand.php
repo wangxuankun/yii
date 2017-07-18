@@ -18,7 +18,11 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
 /**
+<<<<<<< HEAD
  * HelpCommand displays the helper for a given command.
+=======
+ * HelpCommand displays the help for a given command.
+>>>>>>> origin/master
  *
  * @author Fabien Potencier <fabien@symfony.com>
  */
@@ -34,6 +38,7 @@ class HelpCommand extends Command
         $this->ignoreValidationErrors();
 
         $this
+<<<<<<< HEAD
             ->setName('helper')
             ->setDefinition(array(
                 new InputArgument('command_name', InputArgument::OPTIONAL, 'The command name', 'helper'),
@@ -47,6 +52,21 @@ The <info>%command.name%</info> command displays helper for a given command:
   <info>php %command.full_name% list</info>
 
 You can also output the helper in other formats by using the <comment>--format</comment> option:
+=======
+            ->setName('help')
+            ->setDefinition(array(
+                new InputArgument('command_name', InputArgument::OPTIONAL, 'The command name', 'help'),
+                new InputOption('format', null, InputOption::VALUE_REQUIRED, 'The output format (txt, xml, json, or md)', 'txt'),
+                new InputOption('raw', null, InputOption::VALUE_NONE, 'To output raw command help'),
+            ))
+            ->setDescription('Displays help for a command')
+            ->setHelp(<<<'EOF'
+The <info>%command.name%</info> command displays help for a given command:
+
+  <info>php %command.full_name% list</info>
+
+You can also output the help in other formats by using the <comment>--format</comment> option:
+>>>>>>> origin/master
 
   <info>php %command.full_name% --format=xml list</info>
 
