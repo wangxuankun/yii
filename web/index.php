@@ -4,7 +4,6 @@
 defined('YII_DEBUG') or define('YII_DEBUG', true);
 defined('YII_ENV') or define('YII_ENV', 'dev');
 
-require(__DIR__ . '/../helper/function.php');
 
 // 注册 Composer 自动加载器
 require(__DIR__ . '/../helper/function.php');

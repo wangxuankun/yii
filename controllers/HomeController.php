@@ -1,55 +1,14 @@
 <?php
 
 namespace app\controllers;
-
-<<<<<<< HEAD
-=======
 use app\models\Article;
->>>>>>> origin/master
-use app\models\EntryForm;
-use Yii;
-use yii\filters\AccessControl;
+use app\models\Category;
 use yii\web\Controller;
-use yii\web\Response;
-use yii\filters\VerbFilter;
-use app\models\LoginForm;
-use app\models\ContactForm;
 
 class HomeController extends Controller
 {
-<<<<<<< HEAD
     public $layout = 'home'; //定义父模板
 
-    /**
-     * Displays homepage.
-     *
-     * @return string
-     */
-    public function actionIndex()
-    {
-        $request = \Yii::$app->request;
-       // dd($request->get('id',1));
-        $user = [
-                'age'=>7,
-                'class'=>4
-        ];
-
-        $data = [
-            'ip'=>$request->userIP,
-            'username'=>'abc',
-            'str'=>'hello world <script>alert(1)</script>'
-        ];
-        return $this->renderPartial('index',compact('user','data'));
-
-    }
-
-
-    public function actionAbout(){
-
-        return $this->render('about');
-    }
-=======
-    public $layout = 'home';
     function actionIndex(){
 
         //添加记录
@@ -78,8 +37,9 @@ class HomeController extends Controller
 
     function actionAbout(){
 
+        $articles = Article::find()->with('category')->asArray()->all();
+        dd($articles);
     }
 
 
->>>>>>> origin/master
 }

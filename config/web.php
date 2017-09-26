@@ -31,10 +31,7 @@ $config = [
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
-<<<<<<< HEAD
             'flushInterval' => 1,
-=======
->>>>>>> origin/master
             'targets' => [
                 [
                     'class' => 'yii\log\FileTarget',
