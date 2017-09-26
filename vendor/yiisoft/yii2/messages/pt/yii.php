@@ -28,13 +28,8 @@ return [
     'Missing required arguments: {params}' => 'Argumentos obrigatórios em falta: {params}',
     'Missing required parameters: {params}' => 'Parâmetros obrigatórios em falta: {params}',
     'No' => 'Não',
-<<<<<<< HEAD
-    'No helper for unknown command "{command}".' => 'Não há ajuda para o comando desconhecido “{command}”.',
-    'No helper for unknown sub-command "{command}".' => 'Não há ajuda para o sub-comando desconhecido “{command}”.',
-=======
     'No help for unknown command "{command}".' => 'Não há ajuda para o comando desconhecido “{command}”.',
     'No help for unknown sub-command "{command}".' => 'Não há ajuda para o sub-comando desconhecido “{command}”.',
->>>>>>> origin/master
     'No results found.' => 'Não foram encontrados resultados.',
     'Only files with these extensions are allowed: {extensions}.' => 'Só são permitidos ficheiros com as seguintes extensões: {extensions}.',
     'Page not found.' => 'Página não encontrada.',

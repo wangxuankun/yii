@@ -27,11 +27,7 @@ use yii\helpers\Console;
  * where `<route>` is a route to a controller action and the params will be populated as properties of a command.
  * See [[options()]] for details.
  *
-<<<<<<< HEAD
- * @property string $helper This property is read-only.
-=======
  * @property string $help This property is read-only.
->>>>>>> origin/master
  * @property string $helpSummary This property is read-only.
  * @property array $passedOptionValues The properties corresponding to the passed options. This property is
  * read-only.
@@ -56,11 +52,7 @@ class Controller extends \yii\base\Controller
      */
     public $color;
     /**
-<<<<<<< HEAD
-     * @var bool whether to display helper information about current command.
-=======
      * @var bool whether to display help information about current command.
->>>>>>> origin/master
      * @since 2.0.10
      */
     public $help;
@@ -131,11 +123,7 @@ class Controller extends \yii\base\Controller
         }
         if ($this->help) {
             $route = $this->getUniqueId() . '/' . $id;
-<<<<<<< HEAD
-            return Yii::$app->runAction('helper', [$route]);
-=======
             return Yii::$app->runAction('help', [$route]);
->>>>>>> origin/master
         }
         return parent::runAction($id, $params);
     }
@@ -347,11 +335,7 @@ class Controller extends \yii\base\Controller
     public function options($actionID)
     {
         // $actionId might be used in subclasses to provide options specific to action id
-<<<<<<< HEAD
-        return ['color', 'interactive', 'helper'];
-=======
         return ['color', 'interactive', 'help'];
->>>>>>> origin/master
     }
 
     /**
@@ -367,11 +351,7 @@ class Controller extends \yii\base\Controller
     public function optionAliases()
     {
         return [
-<<<<<<< HEAD
-            'h' => 'helper'
-=======
             'h' => 'help'
->>>>>>> origin/master
         ];
     }
 
@@ -430,17 +410,10 @@ class Controller extends \yii\base\Controller
     }
 
     /**
-<<<<<<< HEAD
-     * Returns helper information for this controller.
-     *
-     * You may override this method to return customized helper.
-     * The default implementation returns helper information retrieved from the PHPDoc comment.
-=======
      * Returns help information for this controller.
      *
      * You may override this method to return customized help.
      * The default implementation returns help information retrieved from the PHPDoc comment.
->>>>>>> origin/master
      * @return string
      */
     public function getHelp()
@@ -459,15 +432,9 @@ class Controller extends \yii\base\Controller
     }
 
     /**
-<<<<<<< HEAD
-     * Returns the detailed helper information for the specified action.
-     * @param Action $action action to get helper for
-     * @return string the detailed helper information for the specified action.
-=======
      * Returns the detailed help information for the specified action.
      * @param Action $action action to get help for
      * @return string the detailed help information for the specified action.
->>>>>>> origin/master
      */
     public function getActionHelp($action)
     {
@@ -475,34 +442,20 @@ class Controller extends \yii\base\Controller
     }
 
     /**
-<<<<<<< HEAD
-     * Returns the helper information for the anonymous arguments for the action.
-     * The returned value should be an array. The keys are the argument names, and the values are
-     * the corresponding helper information. Each value must be an array of the following structure:
-=======
      * Returns the help information for the anonymous arguments for the action.
      * The returned value should be an array. The keys are the argument names, and the values are
      * the corresponding help information. Each value must be an array of the following structure:
->>>>>>> origin/master
      *
      * - required: boolean, whether this argument is required.
      * - type: string, the PHP type of this argument.
      * - default: string, the default value of this argument
      * - comment: string, the comment of this argument
      *
-<<<<<<< HEAD
-     * The default implementation will return the helper information extracted from the doc-comment of
-     * the parameters corresponding to the action method.
-     *
-     * @param Action $action
-     * @return array the helper information of the action arguments
-=======
      * The default implementation will return the help information extracted from the doc-comment of
      * the parameters corresponding to the action method.
      *
      * @param Action $action
      * @return array the help information of the action arguments
->>>>>>> origin/master
      */
     public function getActionArgsHelp($action)
     {
@@ -546,33 +499,19 @@ class Controller extends \yii\base\Controller
     }
 
     /**
-<<<<<<< HEAD
-     * Returns the helper information for the options for the action.
-     * The returned value should be an array. The keys are the option names, and the values are
-     * the corresponding helper information. Each value must be an array of the following structure:
-=======
      * Returns the help information for the options for the action.
      * The returned value should be an array. The keys are the option names, and the values are
      * the corresponding help information. Each value must be an array of the following structure:
->>>>>>> origin/master
      *
      * - type: string, the PHP type of this argument.
      * - default: string, the default value of this argument
      * - comment: string, the comment of this argument
      *
-<<<<<<< HEAD
-     * The default implementation will return the helper information extracted from the doc-comment of
-     * the properties corresponding to the action options.
-     *
-     * @param Action $action
-     * @return array the helper information of the action options
-=======
      * The default implementation will return the help information extracted from the doc-comment of
      * the properties corresponding to the action options.
      *
      * @param Action $action
      * @return array the help information of the action options
->>>>>>> origin/master
      */
     public function getActionOptionsHelp($action)
     {

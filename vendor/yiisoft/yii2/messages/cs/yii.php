@@ -29,13 +29,8 @@ return [
     'Missing required arguments: {params}' => 'Chybí povinné argumenty: {params}',
     'Missing required parameters: {params}' => 'Chybí povinné parametry: {params}',
     'No' => 'Ne',
-<<<<<<< HEAD
-    'No helper for unknown command "{command}".' => 'K neznámému příkazu "{command}" neexistuje nápověda.',
-    'No helper for unknown sub-command "{command}".' => 'K neznámému pod-příkazu "{command}" neexistuje nápověda.',
-=======
     'No help for unknown command "{command}".' => 'K neznámému příkazu "{command}" neexistuje nápověda.',
     'No help for unknown sub-command "{command}".' => 'K neznámému pod-příkazu "{command}" neexistuje nápověda.',
->>>>>>> origin/master
     'No results found.' => 'Nenalezeny žádné záznamy.',
     'Only files with these MIME types are allowed: {mimeTypes}.' => 'Povolené jsou pouze soubory následujících MIME typů: {mimeTypes}.',
     'Only files with these extensions are allowed: {extensions}.' => 'Povolené jsou pouze soubory s následujícími příponami: {extensions}.',

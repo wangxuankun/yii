@@ -28,13 +28,8 @@ return [
     'Missing required arguments: {params}' => 'Lipsesc argumente obligatorii: {params}',
     'Missing required parameters: {params}' => 'Lipsesc parametrii obligatori: {params}',
     'No' => 'Nu',
-<<<<<<< HEAD
-    'No helper for unknown command "{command}".' => 'Nu sunt referințe pentru comanda necunoscută "{command}".',
-    'No helper for unknown sub-command "{command}".' => 'Nu sunt referințe pentru sub-comanda necunoscută "{command}".',
-=======
     'No help for unknown command "{command}".' => 'Nu sunt referințe pentru comanda necunoscută "{command}".',
     'No help for unknown sub-command "{command}".' => 'Nu sunt referințe pentru sub-comanda necunoscută "{command}".',
->>>>>>> origin/master
     'No results found.' => 'Nu a fost găsit niciun rezultat.',
     'Only files with these extensions are allowed: {extensions}.' => 'Se acceptă numai fișiere cu următoarele extensii: {extensions}.',
     'Page not found.' => 'Pagina nu a fost găsită.',

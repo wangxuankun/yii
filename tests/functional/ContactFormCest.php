@@ -33,19 +33,11 @@ class ContactFormCest
             'ContactForm[verifyCode]' => 'testme',
         ]);
         $I->expectTo('see that email address is wrong');
-<<<<<<< HEAD
-        $I->dontSee('Name cannot be blank', '.helper-inline');
-        $I->see('Email is not a valid email address.');
-        $I->dontSee('Subject cannot be blank', '.helper-inline');
-        $I->dontSee('Body cannot be blank', '.helper-inline');
-        $I->dontSee('The verification code is incorrect', '.helper-inline');
-=======
         $I->dontSee('Name cannot be blank', '.help-inline');
         $I->see('Email is not a valid email address.');
         $I->dontSee('Subject cannot be blank', '.help-inline');
         $I->dontSee('Body cannot be blank', '.help-inline');
         $I->dontSee('The verification code is incorrect', '.help-inline');        
->>>>>>> origin/master
     }
 
     public function submitFormSuccessfully(\FunctionalTester $I)

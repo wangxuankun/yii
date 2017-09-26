@@ -29,13 +29,8 @@ return [
     'Missing required arguments: {params}' => 'Nedostaju potrebni argunenti: {params}',
     'Missing required parameters: {params}' => 'Nedostaju potrebni parametri: {params}',
     'No' => 'Ne',
-<<<<<<< HEAD
-    'No helper for unknown command "{command}".' => 'Nema pomoći za nepoznatu naredbu "{command}"',
-    'No helper for unknown sub-command "{command}".' => 'Nema pomoći za nepoznatu pod-naredbu "{command}"',
-=======
     'No help for unknown command "{command}".' => 'Nema pomoći za nepoznatu naredbu "{command}"',
     'No help for unknown sub-command "{command}".' => 'Nema pomoći za nepoznatu pod-naredbu "{command}"',
->>>>>>> origin/master
     'No results found.' => 'Nema rezultata.',
     'Only files with these MIME types are allowed: {mimeTypes}.' => 'Samo datoteke s ovim MIME vrstama su dopuštene: {mimeTypes}.',
     'Only files with these extensions are allowed: {extensions}.' => 'Samo datoteke s ovim eksentinzijama su dopuštene:: {extensions}',

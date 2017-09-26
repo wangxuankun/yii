@@ -56,13 +56,8 @@ return [
     'Missing required arguments: {params}' => 'Недостају обавезни аргументи: {params}',
     'Missing required parameters: {params}' => 'Недостају обавезни параметри: {params}',
     'No' => 'Не',
-<<<<<<< HEAD
-    'No helper for unknown command "{command}".' => 'Не постоји помоћ за непознату команду "{command}".',
-    'No helper for unknown sub-command "{command}".' => 'Не постоји помоћ за непознату под-команду "{command}".',
-=======
     'No help for unknown command "{command}".' => 'Не постоји помоћ за непознату команду "{command}".',
     'No help for unknown sub-command "{command}".' => 'Не постоји помоћ за непознату под-команду "{command}".',
->>>>>>> origin/master
     'No results found.' => 'Нема резултата.',
     'Only files with these extensions are allowed: {extensions}.' => 'Само фајлови са следећим екстензијама су дозвољени: {extensions}.',
     'Page not found.' => 'Страница није пронађена.',

@@ -57,13 +57,8 @@ return [
     '{delta, plural, =1{1 month} other{# months}}' => '{delta, plural, zero{# mēneši} one{# mēnesis} other{# mēneši}}',
     '{delta, plural, =1{1 second} other{# seconds}}' => '{delta, plural, zero{# sekundes} one{# sekunde} other{# sekundes}}',
     '{delta, plural, =1{1 year} other{# years}}' => '{delta, plural, zero{# gadi} one{# gads} other{# gadi}}',
-<<<<<<< HEAD
-    'No helper for unknown command "{command}".' => 'Palīdzība nezināmai komandai "{command}" nav pieejama.',
-    'No helper for unknown sub-command "{command}".' => 'Palīdzība nezināmai sub-komandai "{command}" nav pieejama',
-=======
     'No help for unknown command "{command}".' => 'Palīdzība nezināmai komandai "{command}" nav pieejama.',
     'No help for unknown sub-command "{command}".' => 'Palīdzība nezināmai sub-komandai "{command}" nav pieejama',
->>>>>>> origin/master
     'No results found.' => 'Nekas netika atrasts.',
     'Only files with these MIME types are allowed: {mimeTypes}.' => 'Ir atļauts augšupielādēt datnes tikai ar šādiem MIME-tipiem: {mimeTypes}.',
     'Only files with these extensions are allowed: {extensions}.' => 'Ir atļauts augšupielādēt datnes tikai ar šādiem paplašinājumiem: {extensions}.',

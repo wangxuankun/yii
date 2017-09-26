@@ -184,15 +184,9 @@ class Application
         }
 
         $name = $this->getCommandName($input);
-<<<<<<< HEAD
-        if (true === $input->hasParameterOption(array('--helper', '-h'), true)) {
-            if (!$name) {
-                $name = 'helper';
-=======
         if (true === $input->hasParameterOption(array('--help', '-h'), true)) {
             if (!$name) {
                 $name = 'help';
->>>>>>> origin/master
                 $input = new ArrayInput(array('command_name' => $this->defaultCommand));
             } else {
                 $this->wantHelps = true;
@@ -280,15 +274,9 @@ class Application
     }
 
     /**
-<<<<<<< HEAD
-     * Gets the helper message.
-     *
-     * @return string A helper message
-=======
      * Gets the help message.
      *
      * @return string A help message
->>>>>>> origin/master
      */
     public function getHelp()
     {
@@ -472,11 +460,7 @@ class Application
         if ($this->wantHelps) {
             $this->wantHelps = false;
 
-<<<<<<< HEAD
-            $helpCommand = $this->get('helper');
-=======
             $helpCommand = $this->get('help');
->>>>>>> origin/master
             $helpCommand->setCommand($command);
 
             return $helpCommand;
@@ -958,11 +942,7 @@ class Application
         return new InputDefinition(array(
             new InputArgument('command', InputArgument::REQUIRED, 'The command to execute'),
 
-<<<<<<< HEAD
-            new InputOption('--helper', '-h', InputOption::VALUE_NONE, 'Display this helper message'),
-=======
             new InputOption('--help', '-h', InputOption::VALUE_NONE, 'Display this help message'),
->>>>>>> origin/master
             new InputOption('--quiet', '-q', InputOption::VALUE_NONE, 'Do not output any message'),
             new InputOption('--verbose', '-v|vv|vvv', InputOption::VALUE_NONE, 'Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug'),
             new InputOption('--version', '-V', InputOption::VALUE_NONE, 'Display this application version'),

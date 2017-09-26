@@ -73,11 +73,7 @@ class Modal extends Widget
      * - label: string, the label of the button. Defaults to '&times;'.
      *
      * The rest of the options will be rendered as the HTML attributes of the button tag.
-<<<<<<< HEAD
-     * Please refer to the [Modal plugin helper](http://getbootstrap.com/javascript/#modals)
-=======
      * Please refer to the [Modal plugin help](http://getbootstrap.com/javascript/#modals)
->>>>>>> origin/master
      * for the supported HTML attributes.
      */
     public $closeButton = [];
@@ -92,11 +88,7 @@ class Modal extends Widget
      * - label: string, the label of the button. Defaults to 'Show'.
      *
      * The rest of the options will be rendered as the HTML attributes of the button tag.
-<<<<<<< HEAD
-     * Please refer to the [Modal plugin helper](http://getbootstrap.com/javascript/#modals)
-=======
      * Please refer to the [Modal plugin help](http://getbootstrap.com/javascript/#modals)
->>>>>>> origin/master
      * for the supported HTML attributes.
      */
     public $toggleButton = false;

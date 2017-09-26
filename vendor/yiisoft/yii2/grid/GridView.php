@@ -242,7 +242,7 @@ class GridView extends BaseListView
      * @var array the options for rendering every filter error message.
      * This is mainly used by [[Html::error()]] when rendering an error message next to every filter input field.
      */
-    public $filterErrorOptions = ['class' => 'helper-block'];
+    public $filterErrorOptions = ['class' => 'help-block'];
     /**
      * @var string the layout that determines how different sections of the list view should be organized.
      * The following tokens will be replaced with the corresponding section contents:

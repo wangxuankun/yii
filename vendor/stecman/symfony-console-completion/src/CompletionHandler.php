@@ -41,11 +41,7 @@ class CompletionHandler
 
         $this->addHandler(
             new Completion(
-<<<<<<< HEAD
-                'helper',
-=======
                 'help',
->>>>>>> origin/master
                 'command_name',
                 Completion::TYPE_ARGUMENT,
                 array_keys($application->all())

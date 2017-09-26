@@ -55,11 +55,7 @@ class PHPUnit_TextUI_Command
         'filter='                 => null,
         'generate-configuration'  => null,
         'group='                  => null,
-<<<<<<< HEAD
-        'helper'                    => null,
-=======
         'help'                    => null,
->>>>>>> origin/master
         'include-path='           => null,
         'list-groups'             => null,
         'list-suites'             => null,
@@ -352,11 +348,7 @@ class PHPUnit_TextUI_Command
                     break;
 
                 case 'h':
-<<<<<<< HEAD
-                case '--helper':
-=======
                 case '--help':
->>>>>>> origin/master
                     $this->showHelp();
                     exit(PHPUnit_TextUI_TestRunner::SUCCESS_EXIT);
                     break;
@@ -1031,11 +1023,7 @@ class PHPUnit_TextUI_Command
     }
 
     /**
-<<<<<<< HEAD
-     * Show the helper message.
-=======
      * Show the help message.
->>>>>>> origin/master
      */
     protected function showHelp()
     {
@@ -1127,11 +1115,7 @@ Configuration Options:
 
 Miscellaneous Options:
 
-<<<<<<< HEAD
-  -h|--helper                 Prints this usage information.
-=======
   -h|--help                 Prints this usage information.
->>>>>>> origin/master
   --version                 Prints the version and exits.
   --atleast-version <min>   Checks that version is greater than min and exits.
 

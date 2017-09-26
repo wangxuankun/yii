@@ -867,11 +867,7 @@ class BaseConsole
             foreach ($options as $key => $value) {
                 static::output(" $key - $value");
             }
-<<<<<<< HEAD
-            static::output(' ? - Show helper');
-=======
             static::output(' ? - Show help');
->>>>>>> origin/master
             goto top;
         } elseif (!array_key_exists($input, $options)) {
             goto top;

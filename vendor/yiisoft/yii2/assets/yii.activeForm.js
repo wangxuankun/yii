@@ -148,11 +148,7 @@
         // the jQuery selector of the input field under the context of the form
         input: undefined,
         // the jQuery selector of the error tag under the context of the container
-<<<<<<< HEAD
-        error: '.helper-block',
-=======
         error: '.help-block',
->>>>>>> origin/master
         // whether to encode the error
         encodeError: true,
         // whether to perform validation when a change is detected on the input

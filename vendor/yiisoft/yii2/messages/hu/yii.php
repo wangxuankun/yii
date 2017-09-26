@@ -29,13 +29,8 @@ return [
   'Missing required arguments: {params}' => 'Hiányzó argumentumok: {params}',
   'Missing required parameters: {params}' => 'Hiányzó paraméterek: {params}',
   'No' => 'Nem',
-<<<<<<< HEAD
-  'No helper for unknown command "{command}".' => 'Nincs súgó az ismeretlen {command} parancshoz.',
-  'No helper for unknown sub-command "{command}".' => 'Nincs súgó az ismeretlen {command} alparancshoz.',
-=======
   'No help for unknown command "{command}".' => 'Nincs súgó az ismeretlen {command} parancshoz.',
   'No help for unknown sub-command "{command}".' => 'Nincs súgó az ismeretlen {command} alparancshoz.',
->>>>>>> origin/master
   'No results found.' => 'Nincs találat.',
   'Only files with these MIME types are allowed: {mimeTypes}.' => 'Csak a következő MIME típusú fájlok engedélyezettek: {mimeTypes}.',
   'Only files with these extensions are allowed: {extensions}.' => 'Csak a következő kiterjesztésű fájlok engedélyezettek: {extensions}.',

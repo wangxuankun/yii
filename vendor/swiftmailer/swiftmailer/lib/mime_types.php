@@ -288,11 +288,7 @@ $swift_mime_types = array(
     'gex' => 'application/vnd.geometry-explorer',
     'ggb' => 'application/vnd.geogebra.file',
     'ggt' => 'application/vnd.geogebra.tool',
-<<<<<<< HEAD
-    'ghf' => 'application/vnd.groove-helper',
-=======
     'ghf' => 'application/vnd.groove-help',
->>>>>>> origin/master
     'gif' => 'image/gif',
     'gim' => 'application/vnd.groove-identity-message',
     'gml' => 'application/gml+xml',

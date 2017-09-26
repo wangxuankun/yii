@@ -12,11 +12,7 @@ class TestCommand extends Command
             ->setName('namespace:name')
             ->setAliases(array('name'))
             ->setDescription('description')
-<<<<<<< HEAD
-            ->setHelp('helper')
-=======
             ->setHelp('help')
->>>>>>> origin/master
         ;
     }
 

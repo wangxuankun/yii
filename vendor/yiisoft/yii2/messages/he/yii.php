@@ -28,13 +28,8 @@ return [
     'Missing required arguments: {params}' => 'חסרים ארגומנטים נדרשים: {params}',
     'Missing required parameters: {params}' => 'חסרים פרמטרים נדרשים: {params}',
     'No' => 'לא',
-<<<<<<< HEAD
-    'No helper for unknown command "{command}".' => 'פקודה "{command}" לא מוכרת ואין לה עזרה',
-    'No helper for unknown sub-command "{command}".' => 'תת-פקודה "{command}" לא מוכרת ואין לה עזרה',
-=======
     'No help for unknown command "{command}".' => 'פקודה "{command}" לא מוכרת ואין לה עזרה',
     'No help for unknown sub-command "{command}".' => 'תת-פקודה "{command}" לא מוכרת ואין לה עזרה',
->>>>>>> origin/master
     'No results found.' => 'לא נמצאו תוצאות',
     'Only files with these extensions are allowed: {extensions}.' => 'רק קבצים עם ההרחבות הבאות מותרים: {extensions}.',
     'Page not found.' => 'דף לא נמצא',

@@ -20,11 +20,7 @@ class DescriptorCommand3 extends Command
         $this
             ->setName('descriptor:command3')
             ->setDescription('command 3 description')
-<<<<<<< HEAD
-            ->setHelp('command 3 helper')
-=======
             ->setHelp('command 3 help')
->>>>>>> origin/master
             ->setHidden(true)
         ;
     }

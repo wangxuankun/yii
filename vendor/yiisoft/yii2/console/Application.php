@@ -29,11 +29,7 @@ defined('STDERR') or define('STDERR', fopen('php://stderr', 'w'));
  * - The command processes the user request with the specified parameters.
  *
  * The command classes should be under the namespace specified by [[controllerNamespace]].
-<<<<<<< HEAD
- * Their naming should follow the same naming convention as controllers. For example, the `helper` command
-=======
  * Their naming should follow the same naming convention as controllers. For example, the `help` command
->>>>>>> origin/master
  * is implemented using the `HelpController` class.
  *
  * To run the console application, enter the following on the command line:
@@ -47,19 +43,11 @@ defined('STDERR') or define('STDERR', fopen('php://stderr', 'w'));
  * will be used to initialize the controller action (e.g. `--since=0` specifies a `since` parameter
  * whose value is 0 and a corresponding `$since` parameter is passed to the action method).
  *
-<<<<<<< HEAD
- * A `helper` command is provided by default, which lists available commands and shows their usage.
- * To use this command, simply type:
- *
- * ```
- * yii helper
-=======
  * A `help` command is provided by default, which lists available commands and shows their usage.
  * To use this command, simply type:
  *
  * ```
  * yii help
->>>>>>> origin/master
  * ```
  *
  * @property ErrorHandler $errorHandler The error handler application component. This property is read-only.
@@ -77,17 +65,10 @@ class Application extends \yii\base\Application
     const OPTION_APPCONFIG = 'appconfig';
 
     /**
-<<<<<<< HEAD
-     * @var string the default route of this application. Defaults to 'helper',
-     * meaning the `helper` command.
-     */
-    public $defaultRoute = 'helper';
-=======
      * @var string the default route of this application. Defaults to 'help',
      * meaning the `help` command.
      */
     public $defaultRoute = 'help';
->>>>>>> origin/master
     /**
      * @var bool whether to enable the commands provided by the core framework.
      * Defaults to true.
@@ -148,15 +129,9 @@ class Application extends \yii\base\Application
                 }
             }
         }
-<<<<<<< HEAD
-        // ensure we have the 'helper' command so that we can list the available commands
-        if (!isset($this->controllerMap['helper'])) {
-            $this->controllerMap['helper'] = 'yii\console\controllers\HelpController';
-=======
         // ensure we have the 'help' command so that we can list the available commands
         if (!isset($this->controllerMap['help'])) {
             $this->controllerMap['help'] = 'yii\console\controllers\HelpController';
->>>>>>> origin/master
         }
     }
 
@@ -219,11 +194,7 @@ class Application extends \yii\base\Application
             'asset' => 'yii\console\controllers\AssetController',
             'cache' => 'yii\console\controllers\CacheController',
             'fixture' => 'yii\console\controllers\FixtureController',
-<<<<<<< HEAD
-            'helper' => 'yii\console\controllers\HelpController',
-=======
             'help' => 'yii\console\controllers\HelpController',
->>>>>>> origin/master
             'message' => 'yii\console\controllers\MessageController',
             'migrate' => 'yii\console\controllers\MigrateController',
             'serve' => 'yii\console\controllers\ServeController',

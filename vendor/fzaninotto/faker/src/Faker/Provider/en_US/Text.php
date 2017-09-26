@@ -289,11 +289,7 @@ Rabbit returning, splendidly dressed, with a pair of white kid gloves in
 one hand and a large fan in the other: he came trotting along in a great
 hurry, muttering to himself as he came, 'Oh! the Duchess, the Duchess!
 Oh! won't she be savage if I've kept her waiting!' Alice felt so
-<<<<<<< HEAD
-desperate that she was ready to ask helper of any one; so, when the Rabbit
-=======
 desperate that she was ready to ask help of any one; so, when the Rabbit
->>>>>>> origin/master
 came near her, she began, in a low, timid voice, 'If you please, sir--'
 The Rabbit started violently, dropped the white kid gloves and the fan,
 and skurried away into the darkness as hard as he could go.
@@ -644,11 +640,7 @@ bend, I think?'
 'I had NOT!' cried the Mouse, sharply and very angrily.
 
 'A knot!' said Alice, always ready to make herself useful, and looking
-<<<<<<< HEAD
-anxiously about her. 'Oh, do let me helper to undo it!'
-=======
 anxiously about her. 'Oh, do let me help to undo it!'
->>>>>>> origin/master
 
 'I shall do nothing of the sort,' said the Mouse, getting up and walking
 away. 'You insult me by talking such nonsense!'
@@ -811,11 +803,7 @@ then a voice she had never heard before, 'Sure then I'm here! Digging
 for apples, yer honour!'
 
 'Digging for apples, indeed!' said the Rabbit angrily. 'Here! Come and
-<<<<<<< HEAD
-helper me out of THIS!' (Sounds of more broken glass.)
-=======
 help me out of THIS!' (Sounds of more broken glass.)
->>>>>>> origin/master
 
 'Now tell me, Pat, what's that in the window?'
 
@@ -1300,11 +1288,7 @@ a great crash, as if a dish or kettle had been broken to pieces.
 without attending to her, 'if we had the door between us. For instance,
 if you were INSIDE, you might knock, and I could let you out, you know.'
 He was looking up into the sky all the time he was speaking, and this
-<<<<<<< HEAD
-Alice thought decidedly uncivil. 'But perhaps he can't helper it,' she
-=======
 Alice thought decidedly uncivil. 'But perhaps he can't help it,' she
->>>>>>> origin/master
 said to herself; 'his eyes are so VERY nearly at the top of his head.
 But at any rate he might answer questions.--How am I to get in?' she
 repeated, aloud.
@@ -1508,11 +1492,7 @@ Hare. Visit either you like: they're both mad.'
 
 'But I don't want to go among mad people,' Alice remarked.
 
-<<<<<<< HEAD
-'Oh, you can't helper that,' said the Cat: 'we're all mad here. I'm mad.
-=======
 'Oh, you can't help that,' said the Cat: 'we're all mad here. I'm mad.
->>>>>>> origin/master
 You're mad.'
 
 'How do you know I'm mad?' said Alice.
@@ -1932,11 +1912,7 @@ nearer to watch them, and just as she came up to them she heard one of
 them say, 'Look out now, Five! Don't go splashing paint over me like
 that!'
 
-<<<<<<< HEAD
-'I couldn't helper it,' said Five, in a sulky tone; 'Seven jogged my
-=======
 'I couldn't help it,' said Five, in a sulky tone; 'Seven jogged my
->>>>>>> origin/master
 elbow.'
 
 On which Seven looked up and said, 'That's right, Five! Always lay the
@@ -2094,11 +2070,7 @@ she succeeded in getting its body tucked away, comfortably enough, under
 her arm, with its legs hanging down, but generally, just as she had got
 its neck nicely straightened out, and was going to give the hedgehog a
 blow with its head, it WOULD twist itself round and look up in her face,
-<<<<<<< HEAD
-with such a puzzled expression that she could not helper bursting out
-=======
 with such a puzzled expression that she could not help bursting out
->>>>>>> origin/master
 laughing: and when she had got its head down, and was going to begin
 again, it was very provoking to find that the hedgehog had unrolled
 itself, and was in the act of crawling away: besides all this, there was
@@ -2437,11 +2409,7 @@ These words were followed by a very long silence, broken only by an
 occasional exclamation of 'Hjckrrh!' from the Gryphon, and the constant
 heavy sobbing of the Mock Turtle. Alice was very nearly getting up and
 saying, 'Thank you, sir, for your interesting story,' but she could
-<<<<<<< HEAD
-not helper thinking there MUST be more to come, so she sat still and said
-=======
 not help thinking there MUST be more to come, so she sat still and said
->>>>>>> origin/master
 nothing.
 
 'When we were little,' the Mock Turtle went on at last, more calmly,
@@ -2978,11 +2946,7 @@ long as there was room for her.
 'I wish you wouldn't squeeze so.' said the Dormouse, who was sitting
 next to her. 'I can hardly breathe.'
 
-<<<<<<< HEAD
-'I can't helper it,' said Alice very meekly: 'I'm growing.'
-=======
 'I can't help it,' said Alice very meekly: 'I'm growing.'
->>>>>>> origin/master
 
 'You've no right to grow here,' said the Dormouse.
 
@@ -3462,11 +3426,7 @@ EOT;
     even without complying with the full terms of this agreement.  See
     paragraph 1.C below.  There are a lot of things you can do with Project
     Gutenberg-tm electronic works if you follow the terms of this agreement
-<<<<<<< HEAD
-    and helper preserve free future access to Project Gutenberg-tm electronic
-=======
     and help preserve free future access to Project Gutenberg-tm electronic
->>>>>>> origin/master
     works.  See paragraph 1.E below.
 
     1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
@@ -3672,11 +3632,7 @@ EOT;
     Gutenberg Literary Archive Foundation was created to provide a secure
     and permanent future for Project Gutenberg-tm and future generations.
     To learn more about the Project Gutenberg Literary Archive Foundation
-<<<<<<< HEAD
-    and how your efforts and donations can helper, see Sections 3 and 4
-=======
     and how your efforts and donations can help, see Sections 3 and 4
->>>>>>> origin/master
     and the Foundation web page at http://www.pglaf.org.
 
 
@@ -3758,11 +3714,7 @@ EOT;
 
     This Web site includes information about Project Gutenberg-tm,
     including how to make donations to the Project Gutenberg Literary
-<<<<<<< HEAD
-    Archive Foundation, how to helper produce our new eBooks, and how to
-=======
     Archive Foundation, how to help produce our new eBooks, and how to
->>>>>>> origin/master
     subscribe to our email newsletter to hear about new eBooks.
     */
 }

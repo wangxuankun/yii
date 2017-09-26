@@ -287,11 +287,7 @@ EOF;
 
             a { cursor: pointer; text-decoration: none; }
             a:hover { text-decoration: underline; }
-<<<<<<< HEAD
-            abbr[title] { border-bottom: none; cursor: helper; text-decoration: none; }
-=======
             abbr[title] { border-bottom: none; cursor: help; text-decoration: none; }
->>>>>>> origin/master
 
             code, pre { font: 13px/1.5 Consolas, Monaco, Menlo, "Ubuntu Mono", "Liberation Mono", monospace; }
 

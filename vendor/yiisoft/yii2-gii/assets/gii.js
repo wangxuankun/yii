@@ -33,11 +33,7 @@ yii.gii = (function ($) {
     var initHintBlocks = function () {
         $('.hint-block').each(function () {
             var $hint = $(this);
-<<<<<<< HEAD
-            $hint.parent().find('label').addClass('helper').popover({
-=======
             $hint.parent().find('label').addClass('help').popover({
->>>>>>> origin/master
                 html: true,
                 trigger: 'hover',
                 placement: 'right',

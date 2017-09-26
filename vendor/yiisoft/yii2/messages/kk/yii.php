@@ -29,13 +29,8 @@ return [
     'Missing required arguments: {params}' => 'Қажетті аргументтер жоқ: {params}',
     'Missing required parameters: {params}' => 'Қажетті параметрлер жоқ: {params}',
     'No' => 'Жоқ',
-<<<<<<< HEAD
-    'No helper for unknown command "{command}".' => 'Белгісіз "{command}" командасы үшін көмек табылмады.',
-    'No helper for unknown sub-command "{command}".' => 'Белгісіз "{command}" ішкі командасы үшін көмек табылмады.',
-=======
     'No help for unknown command "{command}".' => 'Белгісіз "{command}" командасы үшін көмек табылмады.',
     'No help for unknown sub-command "{command}".' => 'Белгісіз "{command}" ішкі командасы үшін көмек табылмады.',
->>>>>>> origin/master
     'No results found.' => 'Нәтиже табылған жок.',
     'Only files with these extensions are allowed: {extensions}.' => 'Тек мына кеңейтімдегі файлдарға ғана рұқсат етілген: {extensions}.',
     'Page not found.' => 'Бет табылған жок.',

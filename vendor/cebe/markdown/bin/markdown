@@ -51,11 +51,7 @@ foreach($argv as $k => $arg) {
 				$full = true;
 			break;
 			case '-h':
-<<<<<<< HEAD
-			case '--helper':
-=======
 			case '--help':
->>>>>>> origin/master
 				echo "PHP Markdown to HTML converter\n";
 				echo "------------------------------\n\n";
 				echo "by Carsten Brandt <mail@cebe.cc>\n\n";
@@ -129,11 +125,7 @@ Usage:
 
     --full    ouput a full HTML page with head and body. If not given, only the parsed markdown will be output.
 
-<<<<<<< HEAD
-    --helper    shows this usage information.
-=======
     --help    shows this usage information.
->>>>>>> origin/master
 
     If no file is specified input will be read from STDIN.
 
@@ -153,11 +145,7 @@ Examples:
 
 
 [1] http://daringfireball.net/projects/markdown/syntax
-<<<<<<< HEAD
-[2] https://helper.github.com/articles/github-flavored-markdown
-=======
 [2] https://help.github.com/articles/github-flavored-markdown
->>>>>>> origin/master
 [3] http://michelf.ca/projects/php-markdown/extra/
 
 EOF;

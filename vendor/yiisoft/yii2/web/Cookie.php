@@ -45,11 +45,7 @@ class Cookie extends \yii\base\Object
     /**
      * @var bool whether the cookie should be accessible only through the HTTP protocol.
      * By setting this property to true, the cookie will not be accessible by scripting languages,
-<<<<<<< HEAD
-     * such as JavaScript, which can effectively helper to reduce identity theft through XSS attacks.
-=======
      * such as JavaScript, which can effectively help to reduce identity theft through XSS attacks.
->>>>>>> origin/master
      */
     public $httpOnly = true;
 

@@ -23,11 +23,7 @@ class ListCommandTest extends TestCase
         $commandTester = new CommandTester($command = $application->get('list'));
         $commandTester->execute(array('command' => $command->getName()), array('decorated' => false));
 
-<<<<<<< HEAD
-        $this->assertRegExp('/helper\s{2,}Displays helper for a command/', $commandTester->getDisplay(), '->execute() returns a list of available commands');
-=======
         $this->assertRegExp('/help\s{2,}Displays help for a command/', $commandTester->getDisplay(), '->execute() returns a list of available commands');
->>>>>>> origin/master
     }
 
     public function testExecuteListsCommandsWithXmlOption()
@@ -44,11 +40,7 @@ class ListCommandTest extends TestCase
         $commandTester = new CommandTester($command = $application->get('list'));
         $commandTester->execute(array('command' => $command->getName(), '--raw' => true));
         $output = <<<'EOF'
-<<<<<<< HEAD
-helper   Displays helper for a command
-=======
 help   Displays help for a command
->>>>>>> origin/master
 list   Lists commands
 
 EOF;
@@ -85,11 +77,7 @@ Usage:
   command [options] [arguments]
 
 Options:
-<<<<<<< HEAD
-  -h, --helper            Display this helper message
-=======
   -h, --help            Display this help message
->>>>>>> origin/master
   -q, --quiet           Do not output any message
   -V, --version         Display this application version
       --ansi            Force ANSI output
@@ -98,11 +86,7 @@ Options:
   -v|vv|vvv, --verbose  Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
 
 Available commands:
-<<<<<<< HEAD
-  helper      Displays helper for a command
-=======
   help      Displays help for a command
->>>>>>> origin/master
   list      Lists commands
  0foo
   0foo:bar  0foo:bar command
@@ -119,11 +103,7 @@ EOF;
         $commandTester = new CommandTester($command = $application->get('list'));
         $commandTester->execute(array('command' => $command->getName(), '--raw' => true));
         $output = <<<'EOF'
-<<<<<<< HEAD
-helper       Displays helper for a command
-=======
 help       Displays help for a command
->>>>>>> origin/master
 list       Lists commands
 0foo:bar   0foo:bar command
 EOF;

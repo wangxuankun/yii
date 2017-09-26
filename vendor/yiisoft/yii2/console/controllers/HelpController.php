@@ -15,11 +15,7 @@ use yii\helpers\Console;
 use yii\helpers\Inflector;
 
 /**
-<<<<<<< HEAD
- * Provides helper information about console commands.
-=======
  * Provides help information about console commands.
->>>>>>> origin/master
  *
  * This command displays the available command list in
  * the application or the detailed instructions about using
@@ -28,11 +24,7 @@ use yii\helpers\Inflector;
  * This command can be used as follows on command line:
  *
  * ```
-<<<<<<< HEAD
- * yii helper [command name]
-=======
  * yii help [command name]
->>>>>>> origin/master
  * ```
  *
  * In the above, if the command name is not provided, all
@@ -49,17 +41,10 @@ class HelpController extends Controller
      * Displays available commands or the detailed information
      * about a particular command.
      *
-<<<<<<< HEAD
-     * @param string $command The name of the command to show helper about.
-     * If not provided, all available commands will be displayed.
-     * @return int the exit status
-     * @throws Exception if the command for helper is unknown
-=======
      * @param string $command The name of the command to show help about.
      * If not provided, all available commands will be displayed.
      * @return int the exit status
      * @throws Exception if the command for help is unknown
->>>>>>> origin/master
      */
     public function actionIndex($command = null)
     {
@@ -67,11 +52,7 @@ class HelpController extends Controller
             $result = Yii::$app->createController($command);
             if ($result === false) {
                 $name = $this->ansiFormat($command, Console::FG_YELLOW);
-<<<<<<< HEAD
-                throw new Exception("No helper for unknown command \"$name\".");
-=======
                 throw new Exception("No help for unknown command \"$name\".");
->>>>>>> origin/master
             }
 
             list($controller, $actionID) = $result;
@@ -362,13 +343,8 @@ class HelpController extends Controller
                 }
             }
             $scriptName = $this->getScriptName();
-<<<<<<< HEAD
-            $this->stdout("\nTo see the helper of each command, enter:\n", Console::BOLD);
-            $this->stdout("\n  $scriptName " . $this->ansiFormat('helper', Console::FG_YELLOW) . ' '
-=======
             $this->stdout("\nTo see the help of each command, enter:\n", Console::BOLD);
             $this->stdout("\n  $scriptName " . $this->ansiFormat('help', Console::FG_YELLOW) . ' '
->>>>>>> origin/master
                             . $this->ansiFormat('<command-name>', Console::FG_CYAN) . "\n\n");
         } else {
             $this->stdout("\nNo commands are found.\n\n", Console::BOLD);
@@ -416,11 +392,7 @@ class HelpController extends Controller
             }
             $scriptName = $this->getScriptName();
             $this->stdout("\nTo see the detailed information about individual sub-commands, enter:\n");
-<<<<<<< HEAD
-            $this->stdout("\n  $scriptName " . $this->ansiFormat('helper', Console::FG_YELLOW) . ' '
-=======
             $this->stdout("\n  $scriptName " . $this->ansiFormat('help', Console::FG_YELLOW) . ' '
->>>>>>> origin/master
                             . $this->ansiFormat('<sub-command>', Console::FG_CYAN) . "\n\n");
         }
     }
@@ -436,11 +408,7 @@ class HelpController extends Controller
         $action = $controller->createAction($actionID);
         if ($action === null) {
             $name = $this->ansiFormat(rtrim($controller->getUniqueId() . '/' . $actionID, '/'), Console::FG_YELLOW);
-<<<<<<< HEAD
-            throw new Exception("No helper for unknown sub-command \"$name\".");
-=======
             throw new Exception("No help for unknown sub-command \"$name\".");
->>>>>>> origin/master
         }
 
         $description = $controller->getActionHelp($action);
@@ -575,13 +543,8 @@ class HelpController extends Controller
     }
 
     /**
-<<<<<<< HEAD
-     * Return a default helper header.
-     * @return string default helper header.
-=======
      * Return a default help header.
      * @return string default help header.
->>>>>>> origin/master
      * @since 2.0.11
      */
     protected function getDefaultHelpHeader()

@@ -22,11 +22,7 @@ class DescriptorCommandMbString extends Command
         $this
             ->setName('descriptor:åèä')
             ->setDescription('command åèä description')
-<<<<<<< HEAD
-            ->setHelp('command åèä helper')
-=======
             ->setHelp('command åèä help')
->>>>>>> origin/master
             ->addUsage('-o|--option_name <argument_name>')
             ->addUsage('<argument_name>')
             ->addArgument('argument_åèä', InputArgument::REQUIRED)

@@ -8,3 +8,4 @@ return [
     'password' => 'jerry',
     'charset' => 'utf8',
 ];
+

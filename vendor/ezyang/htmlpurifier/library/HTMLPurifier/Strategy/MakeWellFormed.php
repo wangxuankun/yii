@@ -613,11 +613,7 @@ class HTMLPurifier_Strategy_MakeWellFormed extends HTMLPurifier_Strategy
 // Note [Injector skips]
 // ~~~~~~~~~~~~~~~~~~~~~
 // When I originally designed this class, the idea behind the 'skip'
-<<<<<<< HEAD
-// property of HTMLPurifier_Token was to helper avoid infinite loops
-=======
 // property of HTMLPurifier_Token was to help avoid infinite loops
->>>>>>> origin/master
 // in injector processing.  For example, suppose you wrote an injector
 // that bolded swear words.  Naively, you might write it so that
 // whenever you saw ****, you replaced it with <strong>****</strong>.

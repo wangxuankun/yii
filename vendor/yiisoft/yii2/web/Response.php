@@ -792,11 +792,7 @@ class Response extends \yii\base\Response
      * ```
      *
      * In AJAX mode, this normally will not work as expected unless there are some
-<<<<<<< HEAD
-     * client-side JavaScript code handling the redirection. To helper achieve this goal,
-=======
      * client-side JavaScript code handling the redirection. To help achieve this goal,
->>>>>>> origin/master
      * this method will send out a "X-Redirect" header instead of "Location".
      *
      * If you use the "yii" JavaScript module, it will handle the AJAX redirection as

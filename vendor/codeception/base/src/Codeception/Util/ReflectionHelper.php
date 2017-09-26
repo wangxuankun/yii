@@ -2,11 +2,7 @@
 namespace Codeception\Util;
 
 /**
-<<<<<<< HEAD
- * This class contains helper methods to helper with common Reflection tasks.
-=======
  * This class contains helper methods to help with common Reflection tasks.
->>>>>>> origin/master
  */
 class ReflectionHelper
 {

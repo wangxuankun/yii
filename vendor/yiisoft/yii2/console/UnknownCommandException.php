@@ -66,11 +66,7 @@ class UnknownCommandException extends Exception
      */
     public function getSuggestedAlternatives()
     {
-<<<<<<< HEAD
-        $help = $this->application->createController('helper');
-=======
         $help = $this->application->createController('help');
->>>>>>> origin/master
         if ($help === false) {
             return [];
         }

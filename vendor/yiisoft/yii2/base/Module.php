@@ -105,11 +105,7 @@ class Module extends ServiceLocator
     /**
      * @var string the default route of this module. Defaults to `default`.
      * The route may consist of child module ID, controller ID, and/or action ID.
-<<<<<<< HEAD
-     * For example, `helper`, `post/create`, `admin/post/create`.
-=======
      * For example, `help`, `post/create`, `admin/post/create`.
->>>>>>> origin/master
      * If action ID is not given, it will take the default value as specified in
      * [[Controller::defaultAction]].
      */

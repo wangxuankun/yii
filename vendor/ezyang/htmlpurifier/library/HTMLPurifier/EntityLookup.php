@@ -16,11 +16,7 @@ class HTMLPurifier_EntityLookup
      * @param bool $file
      * @note The serialized contents are versioned, but were generated
      *       using the maintenance script generate_entity_file.php
-<<<<<<< HEAD
-     * @warning This is not in constructor to helper enforce the Singleton
-=======
      * @warning This is not in constructor to help enforce the Singleton
->>>>>>> origin/master
      */
     public function setup($file = false)
     {
